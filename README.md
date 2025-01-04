@@ -2,7 +2,8 @@ English dataset of DiffSinger voicebank Nangong Yan & Yu / DiffSinger虚拟歌�
 
 
 3. The dataset contains about 50 mins of English singing voice wav files with three different voice color from the same person, recorded with a condenser microphone in a quite home environment.
-1. Accoustic-related data is labelled with human correction after auto-labelling and in ARPAbetPlus way (with ax, dx, dr and tr) which is compatible with DIFF EN phonemizer.
+4. Lable is in the cvs file.
+1. Accoustic-related data is labelled with human correction after auto-labelling and in ARPAbetPlus way (with ax, dx, dr and tr) which is compatible with DIFF EN+ phonemizer.
 2. There is ph_num and pitch-related information in the transcription file. However the pitch MIDI was automatically labelled by SOME and the speaker has poor pitch accuracy. This should be considered when training with auto-pitch model.
 4. All the wav files are without any after-proccess except for slicing and clipping. You may process it as you want when you use it, e.g. de-noise, de-reverb.
 5. The speaker is a non-native. This might lead to inconsistency in rhoticity and accents (American/British/...). However, it should still be mostly clear and understandable.
